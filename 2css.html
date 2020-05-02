@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        .title-of-the-page{
+            color:red;
+            text-align: center;
+        }
+
+        h1{
+            color:blue;dfd
+        }
+
+        #divstyle {
+            color:green;
+        }
+        .div1{
+            background-color: green;
+            width: 100px;
+            height: 200px;
+            background:green;
+            margin:20px;
+            padding: 20px;
+            border: dashed 4px pink;
+            border-radius: 20px;
+            position: relative;
+        }
+        .floatdiv{
+            position:absolute;
+            top:0px;
+            left: 0px;
+        }
+        body{
+            background: #eee;
+        }
+        .card{
+            background: #ffff;
+            width: 350px;
+            height: 200px;
+            border-radius: 10px;
+            margin:100px;
+            overflow: hidden;
+            box-shadow: 0 0 5px black;
+        }
+        .card:hover{
+            box-shadow: 0 0 10px;
+            transition: all ease 0.2s;
+            transform: translateY(-8px);
+        }
+        .bkimg{
+            position:relative;
+            background: url(bk.jpg);
+            height: 150px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .card-txt{
+            padding: 0.7em;
+            font-size: 10px;
+            font-family:sans-serif;
+        }
+        .card-d{
+            margin:10px;
+            margin-top: 0px;
+        }
+        .card-l{
+            position: absolute;
+            right: 2em;
+            top: 1em;
+            font-family: sans-serif;
+            background:red;
+            border-radius: 5px;
+            padding: 1.5px;    
+            }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="title-of-the-page">This is for the CSS part A</h1>
+    <h1>hello world</h1>
+    <div id="divstyle">div style</div>
+    <br>
+    <div class="div1">
+        div
+        <div class="floatdiv">float div</div>
+    </div>
+    <div class="div1">div</div>
+    <br>
+    <br>
+    <div class="card">
+        <div class="bkimg">
+            <div class="card-l">NSW</div>
+        </div>
+        <div class="card-txt">
+            <strong>Sydeny, Australia</strong>
+            <p class="card-d">something...</p>
+        </div>
+    </div>
+</body>
+</html>
