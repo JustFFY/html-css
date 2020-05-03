@@ -1,3 +1,51 @@
 <html>
-    
+<head>
+    <title>css2</title>
+    <style type="text/css">
+        .container{
+            display:flex;
+            justify-content: space-between;
+            align-items: baseline;
+            height: 500px;
+            background-color: red;
+            flex-wrap: wrap;
+            flex-direction: row;;
+        }
+        .item{
+            background: green;
+            color:white;
+            border:solid 4px darkgreen;
+            border-radius: 10px;
+            width:200px;
+            flex:0 0 200px;
+
+        }
+        div{
+            height: 20px;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="2.css">
+</head>
+<body>
+    <div class="container">
+    <div class="item">flex1</div>
+    <div class="item" style="order: 2;">flex2</div>
+    <div class="item" style="order:1;">flex3</div>
+    <div class="item">flex4</div>
+    <div class="item">flex5</div>
+    </div>
+
+    <br>
+    <br>
+    <div class="color1"></div>
+    <div class="color2"></div>
+    <div class="color3"></div>
+    <div class="color4"></div>
+    <div class="color5"></div>
+    <div class="color6"></div>
+    <div class="color7"></div>
+    <div class="color8"></div>
+    <div class="color9"></div>
+    <div class="color10"></div>
+</body>    
 </html>

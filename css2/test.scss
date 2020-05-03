@@ -1,0 +1,6 @@
+$red:#ff0000;
+@for $i from 1 through 10{
+    .color#{$i}{
+        background-color:lighten($red, $i*5%);
+    }
+}

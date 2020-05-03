@@ -1,0 +1,13 @@
+.nav {
+  color: red;
+}
+
+.nav__link {
+  font-size: 10px;
+}
+
+.nav__link--active {
+  background-color: green;
+}
+
+/*# sourceMappingURL=1.css.map */
