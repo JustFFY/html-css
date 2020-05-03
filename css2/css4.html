@@ -2,8 +2,36 @@
     <head>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <style type="text/css">
+            .container{
+                border: solid 1px #333;
+                overflow: hidden;
+            }
+            .avatar{
+                animation: avatar 2s infinite alternate;
+            }
+            @keyframes avatar {
+                from   {
+                    transform: scale(0.9);
+                }
+                to{
+                    transform: scale(1.1);
+                }
+
+            }
+        </style>
     </head>
     <body>
-        
+        <div class="container">
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="https://cdn.dribbble.com/users/1722835/screenshots/9526183/media/f1d67db8099e1e1943db62454cc2d75e.png" class="avatar embed-responsive">
+                    </div>
+                    <div class="col-8"></div>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
